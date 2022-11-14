@@ -17,8 +17,10 @@
             background-color: black;
         }
 
+
         #game-board {
-            background-color: #ccc;
+            background-image: url('./background.png');
+            background-size: contain;
             width: 100vmin;
             height: 100vmin;
             display: grid;
@@ -27,17 +29,18 @@
         }
 
         .snake {
-            background-color: green;
-            border: .25vmin solid black;
+            background-image: url('./snake-head.png');
+            background-size: cover;
         }
 
         .food {
-            background-color: yellowgreen;
-            border: .25vmin solid black;
+            background-image: url('./food.png');
+            background-size: contain;
         }
     </style>
 </head>
 <body>
+    <div id="background"></div>
     <div id="game-board"></div>
 </body>
 </html>
