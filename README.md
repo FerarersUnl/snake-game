@@ -1,4 +1,4 @@
-# snake-game
+# Snake - game
 
 ## First "Game" created!
 
